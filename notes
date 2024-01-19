@@ -1,0 +1,9 @@
+map method: Cycles through an array and it can do something with each item in the array.
+Props: Are a way to pass data from one component (a parent component) into a child component 
+useEffect: Runs a function every render of the components. Is a way to run code in on every render. Commonly used to fetch data 
+
+
+npm run android 
+
+cd desktop/NucampFolder/json-server
+json-server -H 0.0.0.0 --watch db.json -p 3001 -d 2000
